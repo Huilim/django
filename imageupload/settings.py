@@ -25,13 +25,14 @@ SECRET_KEY = '2$6afnj)q68xp16+0aj+abvym2vykev%w1y+g)cg8vycp0$bj)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-image-upload-capollux.c9users.io']
+ALLOWED_HOSTS = ['huilim-huilim.c9users.io']
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'posts',
+    'imagekit',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
